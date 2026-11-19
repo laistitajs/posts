@@ -10,9 +10,9 @@
     <?php
     echo "ul";
     foreach ($posts as $post) {
-        echo "<li>" . $post->content . "</li>";
-        
+        echo "<li> . $post->content . </li>";
     }
+    echo "/ul";
     ?>
 </body>
 </html>
