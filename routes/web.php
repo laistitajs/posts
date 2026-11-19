@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/posts', function () {
-    return view('welcome');
+    return view('index', ['posts' => \App\Models\Post::all()]);
 });
